@@ -1,0 +1,72 @@
+:root{
+    --red: E63946;
+    --white: F1FAEE;
+    --light_blue: A8DADC;
+    --blue: 457B9D;
+    --dark_blue: 1D3557;
+}
+
+
+* {
+    color: rgb(71,33,131);
+    background-color:rgb(241,246,245); 
+    border: .2px solid white;
+    box-sizing: border-box;
+}
+header {
+    text-align: center;
+    margin:0px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.main-nav {
+    display:flex;
+}
+
+.sub-nav{
+    flex: 1;
+}
+
+.hidden {
+    display: none;
+}
+
+.solid-black-border{
+    border: 5px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+
+.navbar-item{
+    font-weight: bold;
+}
+
+.navbar-item{
+    text-align: center;
+}
+
+.title{
+    font-weight: bold;
+}
+
+.solid-purple-border{
+    border: 5px solid rgb(71,33,131);
+    margin: 5px;
+    padding: 2px;
+}
+
+.detail-toggle{
+    /*
+    The purpose of this class is for it to either display or hide the contents contained in the <p> element directly beneath.
+    */ 
+}
+
+.link{
+    /*
+    The purpose of this class is to handle the formatting of links within the website.
+    */
+}
+
